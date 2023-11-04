@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply into AtlSchool</title>
+</head>
+<body>
+    <header>
+        <h1>AltSchhol</h1>
+        <h2>Application Form</h2>
+    </header>
+    <form action="/signup" method="post">
+        <p>
+          <label>First Name</label><br>
+          <input type="text" name="first_name" required placeholder="Enter first name"> 
+        </p>
+        <p>
+          <label>Last name</label><br>
+          <input type="text" name="last_name" required placeholder="Enter last name">
+        </p>
+        <p>
+          <label>Email</label><br>
+          <input type="email" name="email" required placeholder="Enter email">
+        </p>
+        <p>
+            <label>Gender</label><br>
+            <select name="Gender" required>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </p>
+        <p>
+            <label>Date of Birth</label><br>
+            <input type="date" name="date" required>
+          </p>
+        <p>
+            <label>Educational Level</label><br>
+            <select name="level of education" required>
+              <option>Bsc</option>
+              <option>Msc</option>
+              <option>Diploma</option>
+              <option>Doctorate(PhD)</option>
+              <option>High School/ Secondary School</option>
+              <option>Undergraduate</option>
+              <option>Junior/ Middle School</option>
+              <option>Post Graduate</option>
+            </select>
+          </p>
+        <p>
+          <label>Phone number</label><br>
+          <input type="tel" name="phone" required placeholder="eg: 08155331688">
+        </p>
+        <p>
+          <label>Employment Status</label><br>
+          <select>
+            <option>employed</option>
+            <option>unemployed</option>
+            <option>self-employed</option>
+          </select>
+        </p>
+        <p>
+          <label>Country</label><br>
+          <select>
+            <option>Nigeria</option>
+            <option>Ghana</option>
+            <option>Togo</option>
+            <option>Egypt</option>
+            <option>Niger</option>
+          </select>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" value="terms">
+            I agree to the <a href="/terms">terms and conditions</a>
+          </label>
+        </p>
+        <p>
+          <button>Sign up</button>
+          <button type="reset">Reset form</button>
+        </p>
+      </form>
+</body>
+</html>
